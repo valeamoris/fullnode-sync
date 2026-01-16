@@ -1,6 +1,6 @@
-# HashkeyChain Fullnode Synchronization Guide
+# TTChain Fullnode Synchronization Guide
 
-A simple docker compose script for launching full node for Hashkey Chain.
+A simple docker compose script for launching full node for TTChain.
 
 ## Recommended Hardware
 
@@ -19,10 +19,10 @@ openssl rand -hex 32 > ./jwt/jwt.txt
 
 ### Copy .env.example to .env and update the value
 
-Make a copy of `.env.example.testnet` named `.env`.
+Make a copy of `.env.example.mainnet` named `.env`.
 
 ```sh
-cp .env.example.testnet .env
+cp .env.example.mainnet .env
 # modify .env to your parameters.
 ```
 
